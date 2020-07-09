@@ -23,9 +23,7 @@ body {
   font-size: 13px;
   line-height: 18px;
   margin: 33px;
-}
-span {
-  font-weight: bold;
+  color: #333;
 }
 h1 {
   font-size: 27px;
@@ -51,19 +49,16 @@ th {
 }
 table {
   margin-top:10px;
-  width: 50%;
+  border-collapse: separate;
 }
 .success {
   color: green;
 }
-.edit{
-  color: #666;
+a {
+  color: #000;
 }
-.back {
-  color :#666;
-}
-.show {
-  color :#666;
+a:visited {
+  color: #666
 }
 .btn {
   margin-top: 10px;
@@ -71,5 +66,16 @@ table {
 }
 input {
   padding:1px 7px;
-
+}
+textarea {
+  padding: 2px;
+}
+.success {
+  color: green;
+}
+.error {
+  color: red
+}
+.destroy {
+  color: green;
 }
